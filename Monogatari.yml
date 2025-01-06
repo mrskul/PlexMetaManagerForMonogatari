@@ -1,3 +1,5 @@
+root@docker-b:/docker/compose/kometa/config# vi Monogatari.yml 
+root@docker-b:/docker/compose/kometa/config# cat Monogatari.yml 
 metadata:
   Monogatari:
     seasons:
@@ -311,50 +313,54 @@ metadata:
         originally_available: 2014-12-31
         summary: Koyomi and Yotsugi land at the base of the mountain, where they are surprisingly met by Ougi Oshino. She talks with Koyomi for a while about his current situation and his upcoming confrontation with Teori. Koyomi and Yotsugi begin their journey up the mountain. The two discuss how they will be able to rescue Koyomi's sisters and Suruga.
       S12E01:
-        title: Ougi Formula - Parts 1 & 2
+        title: Ougi Formula - Parts 1
         originally_available: 2015-10-04
         summary: During the month of October of his third year in high school, Koyomi Araragi is introduced to a transfer student named Ougi Oshino, who tells him she has something to consult with him. This reveals a tale that brings to light “what” makes Koyomi Araragi.
       S12E02:
+        title: Ougi Formula - Parts 2
+        originally_available: 2015-10-04
+        summary: During the month of October of his third year in high school, Koyomi Araragi is introduced to a transfer student named Ougi Oshino, who tells him she has something to consult with him. This reveals a tale that brings to light “what” makes Koyomi Araragi.
+      S12E03:
         title: Sodachi Riddle - Part 1
         originally_available: 2015-10-11
         summary: In the aftermath of the previous day, Araragi is about to enter his classroom when Hanekawa informs him that a student absent all year is finally attending. The story pushes further into the past, as more of “what” makes Koyomi Araragi is revealed.
-      S12E03:
+      S12E04:
         title: Sodachi Riddle - Part 2
         originally_available: 2015-10-18
         summary: Having rediscovered the room on the second floor of the ruined house, Koyomi tells Ougi of the events that happened there five years earlier.
-      S12E04:
+      S12E05:
         title: Sodachi Lost - Part 1
         originally_available: 2015-10-25
         summary: Hanekawa reveals her concerns about Ougi as she and Araragi go to visit Oikura.
-      S12E05:
+      S12E06:
         title: Sodachi Lost - Part 2
         originally_available: 2015-11-01
         summary: Araragi and Hanekawa visit Oikura and learn the painful story of her family's past.
-      S12E06:
+      S12E07:
         title: Sodachi Lost - Part 3
         originally_available: 2015-11-08
         summary: Ougi claims to have figured out the whereabouts of Oikura's mother and, in her own way, helps Araragi and Hanekawa to solve the mystery.
-      S12E07:
+      S12E08:
         title: Shinobu Mail - Part 1
         originally_available: 2015-11-15
         summary: Koyomi Araragi waits in the ruins of the cram school to ask Suruga Kanbaru for help, a request he hopes she will refuse.
-      S12E08:
+      S12E09:
         title: Shinobu Mail - Part 2
         originally_available: 2015-11-22
         summary: After a hurried departure from the cram school ruins, Koyomi and Suruga head toward the meeting place, only to encounter some difficulty along the way.
-      S12E09:
+      S12E10:
         title: Shinobu Mail - Part 3
         originally_available: 2015-11-29
         summary: Having finally arrived at the meeting place, Koyomi and Suruga find an unexpected person waiting for them. Before their reunion can take place, they must face an unexpected foe!
-      S12E10:
+      S12E11:
         title: Shinobu Mail - Part 4
         originally_available: 2015-12-06
         summary: The group relocates to the North Shirahebi Shrine where Izuko Gaen tells them the story behind the location and the effect Shinobu's first minion had on it.
-      S12E11:
+      S12E12:
         title: Shinobu Mail - Part 5
         originally_available: 2015-12-13
         summary: Koyomi is confronted by Shinobu's first minion, the original apparition killer. But instead of starting a battle, the samurai makes a simple request.
-      S12E12:
+      S12E13:
         title: Shinobu Mail - Part 6
         originally_available: 2015-12-20
         summary: As Koyomi prepares for his duel, he learns of the crisis that Hanekawa is facing and must decide what battle he should fight.
@@ -437,61 +443,80 @@ metadata:
       S15E01:
         title: Koyomi Reverse - Part 1
         originally_available: 2018-11-10
+        summary: Koyomi Araragi contemplates the current state of his life post-graduation when he suddenly gets pulled through the mirror into a mysterious yet familiar world...
       S15E02:
         title: Koyomi Reverse - Part 2
         originally_available: 2018-11-10
+        summary: Koyomi reexamines his options and is drawn to the bath in the Kanbaru household, but is suddenly attacked by the Rainy Devil. Koyomi narrowly escapes the danger, only to meet more people from this world he supposedly "knows".
       S15E03:
         title: Koyomi Reverse - Part 3
         originally_available: 2018-11-10
+        summary: Koyomi attempts to make sense of the mirror world with this world's counterparts of his acquaintances. Later at night, Yotsugi then takes Koyomi to meet yet another person from this world.
       S15E04:
         title: Koyomi Reverse - Part 4
         originally_available: 2018-11-10
+        summary: Koyomi meets the Shinobu of this world; as they converse, she reveals to him his powerful influence on the mirror world.
       S15E05:
         title: Koyomi Reverse - Part 5
         originally_available: 2018-11-10
+        summary: While taking a bath in the Kanbaru household, Koyomi has an encounter with an unknown yet familiar face who starts up a conversation about knowledge.
       S15E06:
         title: Koyomi Reverse - Part 6
         originally_available: 2018-11-10
+        summary: To put together the final pieces of the puzzle, Koyomi makes one final stop at his now-former high school to meet perhaps the most important piece of that puzzle.
       S16E01:
-        title: "Orokamonogatari: Tsukihi Undo"
+        title: Tsukihi Undo
         originally_available: 2024-07-06
+        summary: Yotsugi Ononoki has been infiltrating the Araragi residence to keep an eye on Tsukihi Araragi. While Tsukihi is at school, Yotsugi freely spends her time, but she is seen by Tsukihi, who suddenly comes back home.
       S16E02:
-        title: "Nademonogatari: Nadeko Draw, Part 1"
+        title: Nadeko Draw, Part 1
         originally_available: 2024-07-13
+        summary: In order to become a manga artist, Nadeko Sengoku doesn't go to school and spends her days drawing. So, her parents finally tell her to start working after graduating from middle school. As the deadline until graduation approaches, Yotsugi Ononoki proposes ways to become a manga artist.
       S16E03:
-        title: "Nademonogatari: Nadeko Draw, Part 2"
+        title: Nadeko Draw, Part 2
         originally_available: 2024-07-20
+        summary: Together with Ougi Oshino, who says, "I saw Nadeko in uniform," Nadeko Sengoku arrives at 701 Middle School, a public school, where she was sighted. Despite her anxiety, Nadeko stepped into the school. The scene she witnessed was unexpected.
       S16E04:
-        title: "Nademonogatari: Nadeko Draw, Part 3"
+        title: Nadeko Draw, Part 3
         originally_available: 2024-07-27
+        summary: Inspired by her conversation with Sodachi Oikura, Nadeko was heading to the Araragi residence to secure Meek Nadeko. However, there was a big hole around the knob of the front door, big enough for a human wrist to pass through. Meanwhile, Yotsugi, who had gone in the other direction to look for God Nadeko, was heading toward North Shirahebi Shrine.
       S16E05:
-        title: "Nademonogatari: Nadeko Draw, Part 4"
+        title: Nadeko Draw, Part 4
         originally_available: 2024-08-03
+        summary: Nadeko and Yotsugi returned to the Sengoku residence to plan a strategy for the future. Unable to take a step forward, Nadeko ponders how to secure the rest of the Shikigami Nadekos, prompting Yotsugi to remind her of her original purpose. To settle the situation and achieve their objectives, the two headed to the place for the final battle.
       S16E06:
-        title: "Nademonogatari: Nadeko Draw, Part 5"
+        title: Nadeko Draw, Part 5
         originally_available: 2024-08-10
+        summary: With the help of Yotsugi Ononoki, Nadeko Sengoku finally met God Nadeko. In front of God Nadeko, who had a creepy smile on her face, were the two "Current Nadekos." After that, the place Nadeko heads to in order to end the story is the location where Koyomi Araragi used to be.
       S16E07:
-        title: "Wazamonogatari: Acerola Bon Appétit, Part 1"
+        title: Acerola Bon Appétit, Part 1
         originally_available: 2024-08-24
+        summary: Suicide-Master, who woke up from starvation, was told by Tropicalesque that the cause of her death was "the Beautiful Princess." Intrigued by her tale, Suicide-Master goes out to find "the Beautiful Princess" to have her as a first meal out from her slumber despite Tropicalesque's warning.
       S16E08:
-        title: "Wazamonogatari: Acerola Bon Appétit, Part 2"
+        title: Acerola Bon Appétit, Part 2
         originally_available: 2024-08-31
+        summary: Suicide-Master, who still keeps dying, realizes that consciousness reform is needed for both the one who eats and the one who gets eaten. She watches Princess Acerola try her best to change with a smile, but Tropicalesque has a thought for his master.
       S16E09:
-        title: "Shinobumonogatari: Shinobu Mustard, Part 1"
+        title: Shinobu Mustard, Part 1
         originally_available: 2024-09-14
+        summary: Koyomi Araragi visited the hospital led by Izuko Gaen. What he saw there were two mummies lying in bed, and both of them were still alive. Izuko and Koyomi, wanting to solve this case, receive a new report that another mummy has been sighted.
       S16E10:
-        title: "Shinobumonogatari: Shinobu Mustard, Part 2"
+        title: Shinobu Mustard, Part 2
         originally_available: 2024-09-21
+        summary: Five members of the women's basketball club at Naoetsu High School go missing. According to Suruga Kanbaru and Seiu Higasa, that's not the only problem. Koyomi takes on this case and searches for the missing people with Izuko.
       S16E11:
-        title: "Shinobumonogatari: Shinobu Mustard, Part 3"
+        title: Shinobu Mustard, Part 3
         originally_available: 2024-09-28
+        summary: To revive a mummified Suicide-Master, Koyomi arrived in Heaven instead of Hell. He obtained some wonder medicine and returned to this world. He starts to revive Suicide-Master, ignoring Shinobu Oshino, Mayoi Hachikuji, and Izuko, who are concerned.
       S16E12:
-        title: "Shinobumonogatari: Shinobu Mustard, Part 4"
+        title: Shinobu Mustard, Part 4
         originally_available: 2024-10-05
+        summary: Koyomi went back to the hospital again with the answer to the code that the fourth mummy left. He reported his results, and it was Izuko's turn next, but she seemed to be in low spirits…
       S16E13:
-        title: "Shinobumonogatari: Shinobu Mustard, Part 5"
+        title: Shinobu Mustard, Part 5
         originally_available: 2024-10-12
+        summary: Shinobu and Suicide-Master reunited for the first time in 600 years. In contrast to the two rejoicing at their reunion, Izuko delivers some news to Koyomi.
       S16E14:
-        title: "Shinobumonogatari: Shinobu Mustard, Part 6"
+        title: Shinobu Mustard, Part 6
         originally_available: 2024-10-19
-
+        summary: Koyomi joins the girls' basketball meetup and asks them what the five missing people have in common. He reaches a certain conviction as he listens to them and quickly leaves. In the meantime, who paid Suicide-Master a visit, as she was waiting alone at the Kanbaru residence...?
