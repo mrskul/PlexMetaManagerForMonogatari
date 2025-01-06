@@ -1,5 +1,3 @@
-root@docker-b:/docker/compose/kometa/config# vi Monogatari.yml 
-root@docker-b:/docker/compose/kometa/config# cat Monogatari.yml 
 metadata:
   Monogatari:
     seasons:
